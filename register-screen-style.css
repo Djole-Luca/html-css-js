@@ -1,0 +1,83 @@
+body {
+    background-color: #283031;
+    font-family: sans-serif;
+}
+
+.form-container {
+    padding-top:190px;
+    padding-left: 600px;
+}
+
+input {
+    display:block;
+    margin-bottom: 30px;
+    width: 300px;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-top: 5px; 
+    padding-bottom: 5px;
+}
+
+.register-submit {
+    width: 310px;
+    background-color: #283031;
+    height: 40px;
+    border-radius: 10px;
+    color:#00ffff;
+    text-align: center;
+    padding-top: 5px;
+    border: 2px solid #00ffff;
+    text-transform: none;
+}
+
+.register-submit:hover{
+    background-color: #00ffff;
+    color: #283031;
+    transition-duration: 1s;
+}
+
+.register-input {
+    background-color: #283031;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom-color: #bfbfbf;
+    border-bottom-width: 1px;
+    color: #bfbfbf;
+}
+
+.register-input:focus{
+    border-bottom-color: #00ffff;
+    color:#bfbfbf;
+    transition-duration: 1s;
+}
+
+.register-input-password {
+    background-color: #283031;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom-color: #bfbfbf;
+    border-bottom-width: 1px;
+    color: #bfbfbf;
+}
+
+.register-input-password:focus{
+    border-bottom-color: #00ffff;
+    color:#bfbfbf;
+    transition-duration: 1s;
+}
+
+.register-polje {
+    display:block;
+    margin-top: -20px;
+}
+.register-polje a{
+    font-size: 13px;
+    color:#00ffff;
+    text-decoration: underline;
+}
+
+.register-polje a:visited{
+    color: #00ffff;
+}
