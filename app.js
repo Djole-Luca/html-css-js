@@ -1,3 +1,0 @@
-function alertic(){
-    alert();
-}
